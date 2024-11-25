@@ -1,0 +1,14 @@
+/* Change text color for navbar links */
+.navbar-light .navbar-nav .nav-link {
+  color: #e0cfb5 !important;
+}
+
+/* Change text color for brand (logo) */
+.navbar-light .navbar-brand {
+  color: #b5c6e0 !important;
+}
+
+/* Change color of the navbar toggle icon (hamburger icon) */
+.navbar-light .navbar-toggler-icon {
+  background-color: #ffffff; /* Icon color (change as needed) */
+}
