@@ -1,0 +1,57 @@
+/* This is for IntroHeader */
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.pitch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  margin: 5%;
+}
+
+.fronter {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.name {
+  display: inline-block;
+}
+
+.text {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.intro {
+  animation: typing 1s steps(20), cursor 0.4s step-end infinite alternate;
+}
+
+.occupation {
+  animation: typing 1s steps(14) forwards,
+    cursor 0.4s step-end infinite alternate;
+  animation-delay: 1s; /* Delay the typing animation */
+  width: 0; /* Start at 0 width */
+}
+
+.occupation-2 {
+  animation: typing 1s steps(13) forwards,
+    cursor 0.4s step-end infinite alternate;
+  animation-delay: 2s; /* Delay the typing animation */
+  width: 0; /* Start at 0 width */
+}
+
+.intro-image {
+  height: 350px;
+}
