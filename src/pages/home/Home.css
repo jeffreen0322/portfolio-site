@@ -20,7 +20,9 @@
 
 .fronter {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 1.5rem;
   height: 100%;
 }
 
@@ -52,6 +54,31 @@
   width: 0; /* Start at 0 width */
 }
 
+.info-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+}
+
+.btn-dark.linkedin:hover {
+  background-color: blue;
+}
+
+.btn-dark.git:hover {
+  background-color: rgb(144, 144, 137);
+}
+
+.btn-dark.email:hover {
+  background-color: rgb(28, 186, 89);
+}
+
+/* Picture */
+
 .intro-image {
   height: 350px;
+  border-radius: 50%;
 }
