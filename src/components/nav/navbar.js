@@ -8,6 +8,16 @@ export default function Navigation() {
     setMenuVisibility(!isMenuVisible);
   };
 
+  const scrollToAbout = () => {
+    const element = document.getElementById("about-section");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      toggleVisibilty();
+    } else {
+      console.warn(`Element with id "${element}" not found`);
+    }
+  };
+
   return (
     <div className={`nav-header ${isMenuVisible ? "color-nav" : ""}`}>
       <h3>
@@ -17,10 +27,15 @@ export default function Navigation() {
       <div className={`nav-showable ${isMenuVisible ? "nav-show" : ""}`}>
         <div className="nav-space">
           <div className="nav-item">
-            <button className="nav-btn">About Me</button>
+            <button onClick={scrollToAbout} className="nav-btn">
+              About Me
+            </button>
           </div>
           <div className="nav-item">
             <button className="nav-btn">Technologies</button>
+          </div>
+          <div className="nav-item">
+            <button className="nav-btn">Resume</button>
           </div>
           <div className="nav-item">
             <button className="nav-btn">Projects</button>
