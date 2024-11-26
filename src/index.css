@@ -19,7 +19,13 @@ body {
 
 h1,
 h2,
+h3,
 p,
 hr {
   color: #e0cfb5 !important;
+  font-family: monospace !important;
+}
+
+button {
+  font-family: monospace !important;
 }
