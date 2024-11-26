@@ -9,6 +9,10 @@
   }
 }
 
+.home {
+  margin: 5rem;
+}
+
 .pitch {
   display: flex;
   flex-direction: row;

@@ -1,13 +1,20 @@
-import { useNavigate } from "react-router-dom";
+import About from "../../components/about/about";
 import "./Home.css";
 
 export default function HomePage() {
   return (
     <div className="home">
-      <div className="pitch">
-        <IntroHeader />
-        <Details />
-      </div>
+      <Pitch />
+      <About />
+    </div>
+  );
+}
+
+function Pitch() {
+  return (
+    <div className="pitch">
+      <IntroHeader />
+      <Details />
     </div>
   );
 }
