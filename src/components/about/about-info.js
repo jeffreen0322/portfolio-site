@@ -1,0 +1,5 @@
+export const userInfo = {
+  sen1: "I'm Jeffrey Ethan Nguyen, I'm a graduate of the University of California - Irvine. With a degree in Computer Science and a specializtion in Information, I am an aspiring Software Engineer. Over the course of my academic journey at UCI, I have developed a strong foundation in software development, web technologies, and problem solving. I'm passionate about creating efficient, user-friendly and practical applications that make a difference.",
+  sen2: "My projects span across all stacks whether it be front-end web development, full-stack applications, and the backend. As a growing software engineer, I enjot learning and keeping up to date with new technologies to contiously improve my skills, along with keeping up with current industry standards.",
+  sen3: "In my free time, I enjoy delcing into personal coding project as seen below. I'm excited to apply my knowledge and creativity to real-world challenges and to contribute to innovative tech solutions.",
+};
