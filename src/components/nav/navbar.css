@@ -1,14 +1,100 @@
-/* Change text color for navbar links */
-.navbar-light .navbar-nav .nav-link {
-  color: #e0cfb5 !important;
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: transparent;
 }
 
-/* Change text color for brand (logo) */
-.navbar-light .navbar-brand {
+.nav-header > h3 > a {
   color: #b5c6e0 !important;
+  text-decoration: none;
 }
 
-/* Change color of the navbar toggle icon (hamburger icon) */
-.navbar-light .navbar-toggler-icon {
-  background-color: #ffffff; /* Icon color (change as needed) */
+.nav-space {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-btn {
+  background-color: transparent;
+  color: #b5c6e0;
+  border: none;
+  font-size: larger;
+}
+
+.hamburger-btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: #b5c6e0;
+}
+
+@media (max-width: 700px) {
+  .hamburger-btn {
+    display: block;
+  }
+
+  .nav-header.color-nav {
+    animation: 1s fadeIn;
+    background-color: rgb(36, 35, 35);
+  }
+
+  .nav-space {
+    flex-direction: column;
+  }
+
+  .nav-showable {
+    display: none;
+    flex-direction: column;
+    top: 10vh;
+    left: 0;
+  }
+
+  .nav-showable.nav-show {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(36, 35, 35);
+    width: 100vw;
+    top: 3.6rem;
+    padding: 1rem;
+    animation: slideDown 1s;
+  }
+
+  .nav-showable.nav-hide {
+    animation: slideUp 1s forwards;
+  }
+
+  .nav-btn {
+    animation: fadeIn 1.5s;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    height: 0px;
+    opacity: 0;
+  }
+  to {
+    height: 142px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

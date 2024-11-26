@@ -1,31 +1,47 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { useState } from "react";
 import "./navbar.css";
 
-function CollapsibleExample() {
+export default function Navigation() {
+  const [isMenuVisible, setMenuVisibility] = useState(false);
+
+  const toggleVisibilty = () => {
+    setMenuVisibility(!isMenuVisible);
+  };
+
   return (
-    <Navbar collapseOnSelect expand="lg">
-      <Container>
-        <Navbar.Brand href="/" className="logo">
-          Jeffrey Nguyen
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-          <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div className={`nav-header ${isMenuVisible ? "color-nav" : ""}`}>
+      <h3>
+        <a href="/">Jeffrey Nguyen</a>
+      </h3>
+
+      <div className={`nav-showable ${isMenuVisible ? "nav-show" : ""}`}>
+        <div className="nav-space">
+          <div className="nav-item">
+            <button className="nav-btn">About Me</button>
+          </div>
+          <div className="nav-item">
+            <button className="nav-btn">Technologies</button>
+          </div>
+          <div className="nav-item">
+            <button className="nav-btn">Projects</button>
+          </div>
+        </div>
+      </div>
+      <button className="hamburger-btn nav-item" onClick={toggleVisibilty}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="38"
+          height="38"
+          fill="currentColor"
+          class="bi bi-list"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+          ></path>
+        </svg>
+      </button>
+    </div>
   );
 }
-
-export default CollapsibleExample;
