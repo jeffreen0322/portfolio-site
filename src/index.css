@@ -17,15 +17,26 @@ body {
   background-image: url("https://itclub.stcb.edu.lk/wp-content/uploads/2022/12/sdas.jpg");
 }
 
-h1,
-h2,
-h3,
 p,
-hr {
+hr,
+li,
+button {
   color: #e0cfb5 !important;
   font-family: monospace !important;
 }
 
 button {
   font-family: monospace !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #b5c6e0 !important;
+}
+
+strong {
+  color: #5384ce;
 }

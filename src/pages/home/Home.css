@@ -10,6 +10,9 @@
 }
 
 .home {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin: 5rem;
 }
 
@@ -34,6 +37,10 @@
   display: inline-block;
 }
 
+.normal {
+  color: #e0cfb5 !important;
+}
+
 .text {
   width: 100%;
   white-space: nowrap;
@@ -47,8 +54,8 @@
 .occupation {
   animation: typing 1s steps(14) forwards,
     cursor 0.4s step-end infinite alternate;
-  animation-delay: 1s; /* Delay the typing animation */
-  width: 0; /* Start at 0 width */
+  animation-delay: 1s;
+  width: 0;
 }
 
 .occupation-2 {

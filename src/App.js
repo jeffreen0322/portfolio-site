@@ -8,8 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function App() {
   return (
     <>
-      <NavigationBar />
       <Router>
+        <NavigationBar />
         <Routes>
           <Route exact path="/" element={<HomePage />} />
         </Routes>

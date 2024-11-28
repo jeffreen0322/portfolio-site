@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 export default function Navigation() {
@@ -18,10 +19,20 @@ export default function Navigation() {
     }
   };
 
+  const scrollToResume = () => {
+    const element = document.getElementById("resume");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      toggleVisibilty();
+    } else {
+      console.warn(`Element with id "${element}" not found`);
+    }
+  };
+
   return (
     <div className={`nav-header ${isMenuVisible ? "color-nav" : ""}`}>
       <h3>
-        <a href="/">Jeffrey Nguyen</a>
+        <Link to="/">Jeffrey Nguyen</Link>
       </h3>
 
       <div className={`nav-showable ${isMenuVisible ? "nav-show" : ""}`}>
@@ -32,10 +43,12 @@ export default function Navigation() {
             </button>
           </div>
           <div className="nav-item">
-            <button className="nav-btn">Technologies</button>
+            <button onClick={scrollToResume} className="nav-btn">
+              Resume
+            </button>
           </div>
           <div className="nav-item">
-            <button className="nav-btn">Resume</button>
+            <button className="nav-btn">Technologies</button>
           </div>
           <div className="nav-item">
             <button className="nav-btn">Projects</button>

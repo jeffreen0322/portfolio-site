@@ -8,3 +8,7 @@
 .logo {
   height: 340px;
 }
+
+.intro-story > h2 {
+  color: #b5c6e0 !important;
+}

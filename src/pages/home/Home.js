@@ -1,4 +1,5 @@
 import About from "../../components/about/about";
+import Resume from "../../components/resume/resume";
 import "./Home.css";
 
 export default function HomePage() {
@@ -6,6 +7,7 @@ export default function HomePage() {
     <div className="home">
       <Pitch />
       <About />
+      <Resume />
     </div>
   );
 }
@@ -27,12 +29,15 @@ function IntroHeader() {
     >
       <div className="name">
         <h1 className="text intro">
-          Hello, I'm <span style={{ color: "#B5C6E0" }}>Jeffrey</span>!
+          <span className="normal">Hello, I'm </span>
+          <span style={{ color: "#B5C6E0" }}>Jeffrey</span>
+          <span className="normal">!</span>
         </h1>
-        <h1 className="text occupation">I'm an Aspring</h1>
+        <h1 className="text occupation normal">I'm an Aspring</h1>
 
         <h1 className="text occupation-2">
-          <span style={{ color: "#B5C6E0" }}>SW Developer</span>!
+          <span style={{ color: "#B5C6E0" }}>SW Developer</span>
+          <span className="normal">!</span>
         </h1>
       </div>
       <Socials />
