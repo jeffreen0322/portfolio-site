@@ -11,21 +11,67 @@ import cLogo from "./assets/C_Logo.png";
 import cppLogo from "./assets/C_logo (1).png";
 import javaLogo from "./assets/Java-logo.png";
 
-export const userInfo = {
-  skills: [
-    { name: "html", image: { htmlLogo } },
-    { name: "css", image: { cssLogo } },
-    { name: "javascript", image: { javascriptLogo } },
-    { name: "typescript", image: { typescriptLogo } },
-    { name: "react", image: { reactLogo } },
-    { name: "angular", image: { angularLogo } },
-    { name: "ionic", image: { ionicLogo } },
-    { name: "mysql", image: { mysqlLogo } },
-    { name: "python", image: { pythonLogo } },
-    { name: "c", image: { cLogo } },
-    { name: "c++", image: { cppLogo } },
-    { name: "java", image: { javaLogo } },
-    { name: "git", image: "/" },
-    { name: "figma", image: "/" },
-  ],
-};
+export const skillInfo = [
+  {
+    name: "html",
+    image: htmlLogo,
+    title: "HTML",
+    url: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5 ",
+  },
+  {
+    name: "css",
+    image: cssLogo,
+    title: "CSS",
+    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  },
+  {
+    name: "javascript",
+    image: javascriptLogo,
+    title: "JavaScript",
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    name: "typescript",
+    image: typescriptLogo,
+    title: "TypeScript",
+    url: "https://www.typescriptlang.org/docs/",
+  },
+  {
+    name: "react",
+    image: reactLogo,
+    title: "React.js",
+    url: "https://react.dev",
+  },
+  {
+    name: "angular",
+    image: angularLogo,
+    title: "Angular",
+    url: "https://angular.dev",
+  },
+  {
+    name: "ionic",
+    image: ionicLogo,
+    title: "Ionic",
+    url: "https://angular.dev",
+  },
+  {
+    name: "mysql",
+    image: mysqlLogo,
+    title: "mySQL",
+    url: "https://dev.mysql.com/doc/",
+  },
+  {
+    name: "python",
+    image: pythonLogo,
+    title: "Python",
+    url: "https://docs.python.org/3/",
+  },
+  { name: "c", image: cLogo, title: "C", url: "https://devdocs.io/c/" },
+  { name: "c++", image: cppLogo, title: "C++", url: "https://cplusplus.com" },
+  {
+    name: "java",
+    image: javaLogo,
+    title: "Java",
+    url: "https://docs.oracle.com/en/java/",
+  },
+];

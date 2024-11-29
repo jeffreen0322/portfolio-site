@@ -48,9 +48,6 @@ export default function Navigation() {
             </button>
           </div>
           <div className="nav-item">
-            <button className="nav-btn">Technologies</button>
-          </div>
-          <div className="nav-item">
             <button className="nav-btn">Projects</button>
           </div>
         </div>
@@ -61,7 +58,7 @@ export default function Navigation() {
           width="38"
           height="38"
           fill="currentColor"
-          class="bi bi-list"
+          className="bi bi-list"
           viewBox="0 0 16 16"
         >
           <path

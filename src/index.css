@@ -35,6 +35,7 @@ h3,
 h4,
 h5 {
   color: #b5c6e0 !important;
+  font-family: monospace !important;
 }
 
 strong {
