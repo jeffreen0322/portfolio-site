@@ -1,0 +1,11 @@
+.btn-dark.linkedin:hover {
+  background-color: blue;
+}
+
+.btn-dark.git:hover {
+  background-color: rgb(144, 144, 137);
+}
+
+.btn-dark.email:hover {
+  background-color: rgb(28, 186, 89);
+}

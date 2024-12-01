@@ -1,0 +1,25 @@
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  justify-content: center;
+  justify-items: center;
+  border-top: 1px solid white;
+  padding: 2rem;
+  width: 100%;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-item {
+  color: #b5c6e0 !important;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.nav-item:hover {
+  color: #e0cfb5 !important;
+  cursor: pointer;
+}
