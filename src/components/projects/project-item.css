@@ -52,6 +52,7 @@
   height: 100%;
   overflow: scroll;
   overflow-x: hidden;
+  border-radius: 10px;
 }
 
 .overlay.active {
