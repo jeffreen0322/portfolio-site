@@ -13,6 +13,11 @@
 - Javascript
 - CSS
 
+## Frameworks / Libraries
+
+- react-router-dom
+- react-bootstrap
+
 ## Deployment
 
 - Vercel (TBA)
