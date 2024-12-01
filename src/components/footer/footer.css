@@ -9,6 +9,11 @@
   width: 100%;
 }
 
+.footer-container > h3 > a {
+  color: #b5c6e0 !important;
+  text-decoration: none;
+}
+
 .nav-list {
   list-style-type: none;
 }
