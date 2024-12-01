@@ -6,15 +6,10 @@ import { Link } from "react-router-dom";
 export default function Technologies() {
   return (
     <div className="technologies">
-      {skillInfo.map((skill) => (
-        <Link to={skill.url} className="stack-link">
+      {skillInfo.map((skill, index) => (
+        <Link key={index} to={skill.url} className="stack-link">
           <div className="stack-container">
-            <img
-              key={skill.name}
-              src={skill.image}
-              alt={skill.name}
-              className="tech-icon"
-            />
+            <img src={skill.image} alt={skill.name} className="tech-icon" />
             <p>{skill.title}</p>
           </div>
         </Link>

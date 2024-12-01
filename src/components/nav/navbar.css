@@ -1,3 +1,13 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -6,6 +16,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: transparent;
+  z-index: 1001;
 }
 
 .nav-header > h3 > a {
@@ -71,11 +82,7 @@
     width: 100vw;
     top: 3.6rem;
     padding: 1rem;
-    animation: slideDown 1s;
-  }
-
-  .nav-showable.nav-hide {
-    animation: slideUp 1s forwards;
+    /* animation: slideDown 1s; */
   }
 
   .nav-btn {
@@ -90,23 +97,13 @@
   }
 }
 
-@keyframes slideDown {
+/* @keyframes slideDown {
   from {
-    height: 0px;
+    height: 0px !important;
     opacity: 0;
   }
   to {
-    height: 156px;
+    height: 1px !important;
     opacity: 1;
   }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
+} */
