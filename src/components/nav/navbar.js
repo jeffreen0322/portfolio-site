@@ -29,6 +29,16 @@ export default function Navigation() {
     }
   };
 
+  const scrollToProjects = () => {
+    const element = document.getElementById("project-section");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      toggleVisibilty();
+    } else {
+      console.warn(`Element with id "${element}" not found`);
+    }
+  };
+
   return (
     <div className={`nav-header ${isMenuVisible ? "color-nav" : ""}`}>
       <h3>
@@ -48,7 +58,9 @@ export default function Navigation() {
             </button>
           </div>
           <div className="nav-item">
-            <button className="nav-btn">Projects</button>
+            <button onClick={scrollToProjects} className="nav-btn">
+              Projects
+            </button>
           </div>
         </div>
       </div>
@@ -62,7 +74,7 @@ export default function Navigation() {
           viewBox="0 0 16 16"
         >
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
           ></path>
         </svg>
