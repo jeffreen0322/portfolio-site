@@ -39,6 +39,16 @@ export default function Navigation() {
     }
   };
 
+  const scrollToOngoing = () => {
+    const element = document.getElementById("ongoing-section");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      toggleVisibilty();
+    } else {
+      console.warn(`Element with id "${element}" not found`);
+    }
+  };
+
   return (
     <div className={`nav-header ${isMenuVisible ? "color-nav" : ""}`}>
       <h3>
@@ -60,6 +70,11 @@ export default function Navigation() {
           <div className="nav-item">
             <button onClick={scrollToProjects} className="nav-btn">
               Projects
+            </button>
+          </div>
+          <div className="nav-item">
+            <button onClick={scrollToOngoing} className="nav-btn">
+              In Progress
             </button>
           </div>
         </div>

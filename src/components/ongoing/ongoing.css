@@ -1,0 +1,11 @@
+.ongoing-container {
+  margin-top: 2rem;
+}
+
+.current-samples {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  width: 100%;
+  gap: 1rem;
+}

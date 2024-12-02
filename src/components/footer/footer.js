@@ -30,6 +30,15 @@ export default function Footer() {
     }
   };
 
+  const scrollToOngoing = () => {
+    const element = document.getElementById("ongoing-section");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    } else {
+      console.warn(`Element with id "${element}" not found`);
+    }
+  };
+
   return (
     <div className="footer-container">
       <h3>
@@ -47,6 +56,10 @@ export default function Footer() {
           </li>
           <li className="nav-item" onClick={scrollToProjects}>
             Projects
+          </li>
+
+          <li className="nav-item" onClick={scrollToOngoing}>
+            In Progress
           </li>
         </ul>
       </div>
