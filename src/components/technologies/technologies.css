@@ -51,3 +51,27 @@
   height: 100px;
   width: fit-content;
 }
+
+@media (min-width: 901px) and (max-width: 1100px) {
+  .tech-icon {
+    height: 75px;
+  }
+}
+
+@media (min-width: 549px) and (max-width: 900px) {
+  .technologies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .tech-icon {
+    height: 50px;
+  }
+}
+
+@media (max-width: 548px) {
+  .technologies {
+    display: none;
+  }
+}

@@ -2,6 +2,7 @@ import About from "../../components/about/about";
 import Socials from "../../components/socials/socials";
 import Resume from "../../components/resume/resume";
 import Projects from "../../components/projects/projects";
+import OngoingWorks from "../../components/ongoing/ongoing";
 import jeffImg from "./assets/jeff.png";
 import "./Home.css";
 
@@ -12,6 +13,7 @@ export default function HomePage() {
       <About />
       <Resume />
       <Projects />
+      <OngoingWorks />
     </div>
   );
 }

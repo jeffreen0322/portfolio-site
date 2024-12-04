@@ -1,8 +1,8 @@
-.projects {
+.ongoing-container {
   margin-top: 2rem;
 }
 
-.samples {
+.current-samples {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -11,13 +11,13 @@
 }
 
 @media (min-width: 549px) and (max-width: 900px) {
-  .samples {
+  .current-samples {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 548px) {
-  .samples {
+  .current-samples {
     grid-template-columns: 1fr;
   }
 }

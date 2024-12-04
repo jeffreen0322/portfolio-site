@@ -41,3 +41,12 @@ h5 {
 strong {
   color: #5384ce;
 }
+
+@media (max-width: 900px) {
+  p,
+  hr,
+  li,
+  button {
+    font-size: 14px;
+  }
+}

@@ -12,3 +12,42 @@
 .intro-story > h2 {
   color: #b5c6e0 !important;
 }
+
+@media (min-width: 650px) and (max-width: 950px) {
+  .about {
+    display: block;
+  }
+  .uci-logo {
+    float: left;
+    margin: 16px;
+  }
+
+  .logo {
+    height: 300px;
+  }
+}
+
+@media (max-width: 650px) {
+  .about {
+    display: block;
+  }
+  .uci-logo {
+    float: left;
+    margin: 16px;
+  }
+  .logo {
+    height: 250px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 530px) {
+  .logo {
+    height: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo {
+    height: 150px;
+  }
+}

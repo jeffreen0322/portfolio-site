@@ -37,7 +37,7 @@
 
 .sample img {
   height: 300px;
-  width: auto;
+  width: 100vw;
 }
 
 .overlay {
