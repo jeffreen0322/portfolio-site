@@ -9,3 +9,15 @@
   width: 100%;
   gap: 1rem;
 }
+
+@media (min-width: 549px) and (max-width: 900px) {
+  .samples {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 548px) {
+  .samples {
+    grid-template-columns: 1fr;
+  }
+}

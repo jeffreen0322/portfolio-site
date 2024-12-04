@@ -28,3 +28,27 @@
   color: #e0cfb5 !important;
   cursor: pointer;
 }
+
+@media (max-width: 880px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nav-list {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 880px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+@media (max-width: 499px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+}
