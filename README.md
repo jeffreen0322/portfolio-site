@@ -27,3 +27,6 @@
 1. Go into project directory
 2. run `npm install`
 3. run `npm start`
+
+## Deployed Link
+- jeffrey-e-nguyen.vercel.app
