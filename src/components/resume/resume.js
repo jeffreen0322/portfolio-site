@@ -110,7 +110,7 @@ export default function Resume() {
             </p>
             <ul>
               <li>
-                Created a professional portfolio website using HTML, CSS, and
+                Created a professional portfolio website using Vercel, CSS, and
                 JavaScript.
               </li>
               <li>
