@@ -114,7 +114,7 @@ export default function Resume() {
                 JavaScript.
               </li>
               <li>
-                Hosted on GitHub Pages, featuring projects, repositories,
+                Hosted on Vercel, featuring projects, repositories,
                 socials, and skills.
               </li>
             </ul>
