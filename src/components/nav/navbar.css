@@ -64,6 +64,7 @@
     flex-direction: column;
     top: 10vh;
     left: 0;
+    margin-top: 22px;
   }
 
   .nav-showable.nav-show {
