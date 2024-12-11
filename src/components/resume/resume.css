@@ -16,6 +16,12 @@
   border-radius: 10px;
 }
 
+.dload-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
 .download {
   background-color: transparent;
   border: 2px solid white;

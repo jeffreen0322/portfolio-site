@@ -19,11 +19,6 @@
   z-index: 1001;
 }
 
-.nav-header > h3 > a {
-  color: #b5c6e0 !important;
-  text-decoration: none;
-}
-
 .nav-space {
   display: flex;
   flex-direction: row;
@@ -33,9 +28,9 @@
 
 .nav-btn {
   background-color: transparent;
-  color: #b5c6e0;
+  color: #b5c6e0 !important;
   border: none;
-  font-size: larger;
+  font-size: large;
 }
 
 .hamburger-btn {
@@ -92,18 +87,6 @@
   }
 
   .nav-btn:hover {
-    color: black;
-    background-color: #e0cfb5;
+    color: #e0cfb5 !important;
   }
 }
-
-/* @keyframes slideDown {
-  from {
-    height: 0px !important;
-    opacity: 0;
-  }
-  to {
-    height: 1px !important;
-    opacity: 1;
-  }
-} */

@@ -9,19 +9,13 @@
   width: 100%;
 }
 
-.footer-container > h3 > a {
-  color: #b5c6e0 !important;
-  text-decoration: none;
-}
-
 .nav-list {
   list-style-type: none;
 }
 
 .nav-item {
   color: #b5c6e0 !important;
-  font-weight: bolder;
-  font-size: larger;
+  font-size: large;
 }
 
 .nav-item:hover {
