@@ -31,8 +31,12 @@
   justify-content: center;
   background-color: black;
   overflow: hidden;
-  border: 1px solid #ccc;
+  /* border: 2px solid #ccc; */
   border-radius: 10px;
+}
+
+.sample:hover {
+  filter: drop-shadow(0 0 10px #5384ce);
 }
 
 .sample img {
