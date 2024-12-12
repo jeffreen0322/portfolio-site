@@ -69,6 +69,10 @@
   gap: 1rem;
 }
 
+.figma {
+  font-family: monospace;
+}
+
 .tech-stack {
   display: flex;
   flex-direction: row;
