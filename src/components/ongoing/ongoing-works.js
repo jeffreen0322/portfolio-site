@@ -7,7 +7,6 @@ export const currentWorks = [
     description:
       "Currently undergoing a certification for CompTIA A+, relevent for entry-level IT positions. My goal with this is to gain necessary skills needed for a role as a Help Desk Technician.",
     image: comptiaAPlusImg,
-    url: "https://www.comptia.org/certifications/a",
   },
   {
     title: "Bannify AI SaaS",
