@@ -27,6 +27,7 @@ export const projects = [
     description:
       "A mobile-first web application that logs an individual's sleep time, along with a measurement of tiredness during the day. Sleep tracking is simple and required date or instantaneous input, whereas sleepiness tracker is dependent on instantaneous time of day, which requires ondemand input.",
     image: sleeptrackImg,
+    url: "https://jn-sleep-tracker.vercel.app",
     videoUrl: "https://youtu.be/l5IzflnwdlU",
     tech: ["Angular", "Ionic", "Typescript", "SCSS", "Capacitator"],
   },
