@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { TagToggle } from "../label/label";
 import "./project-item.css";
 
 export default function ProjectItem({ info }) {
@@ -76,6 +77,12 @@ export default function ProjectItem({ info }) {
           ) : null}
         </div>
         <p>{info.description}</p>
+        <div className="tech-stack">
+          {info.tech &&
+            info.tech.map((skill, index) => (
+              <TagToggle key={index} tech={skill} />
+            ))}
+        </div>
       </div>
     </div>
   );

@@ -13,6 +13,14 @@ export const projects = [
     image: anibrowserImg,
     url: "https://anibrowser.vercel.app",
     repo: "https://github.com/jeffreen0322/Anibrowser",
+    tech: [
+      "React",
+      "NodeJS",
+      "Jikan REST API",
+      "CSS",
+      "Javascript",
+      "Bootstrap",
+    ],
   },
   {
     title: "SleepTracker",
@@ -20,6 +28,7 @@ export const projects = [
       "A mobile-first web application that logs an individual's sleep time, along with a measurement of tiredness during the day. Sleep tracking is simple and required date or instantaneous input, whereas sleepiness tracker is dependent on instantaneous time of day, which requires ondemand input.",
     image: sleeptrackImg,
     videoUrl: "https://youtu.be/l5IzflnwdlU",
+    tech: ["Angular", "Ionic", "Typescript", "SCSS", "Capacitator"],
   },
   {
     title: "Fabflix",
@@ -28,6 +37,18 @@ export const projects = [
     image: fabflixImg,
     videoUrl:
       "https://www.youtube.com/watch?v=xXxLp35eHVs&list=PLWMGgD1TjCRFNvk1VDFasJeQac9YO-CSo&index=1&ab_channel=HoussinSaadeh",
+    tech: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Java",
+      "SQL",
+      "AJAX",
+      "Tomcat",
+      "AWS",
+      "Bootstrap",
+      "JDBC",
+    ],
   },
   {
     title: "Dr. Mario Tile Game",
@@ -35,6 +56,7 @@ export const projects = [
       "As part of a larger project in the creation of a tile game engine from scratch using principles from established game engines such as Unity, I was responsible for the architectural design and implementation of Tiles and Tile components. I led the implementation of a replica Dr. Mario, one of the 3 tile games that were implemented in this project.",
     image: drMarioImg,
     videoUrl: "https://youtu.be/l6lWYx-K61A",
+    tech: ["Java", "JavaFX"],
   },
   {
     title: "Carmeet",
@@ -43,13 +65,15 @@ export const projects = [
     image: carMeetImg,
     url: "https://jeffreen0322.github.io/CarMeet/",
     repo: "https://github.com/jeffreen0322/CarMeet",
+    tech: ["HTML", "CSS", "Bootstrap"],
   },
   {
     title: "Todo List",
     description:
-      "A front-end website utilizing HTML, CSS, and javascript. This project exemplifies the utilization of node.ks and express.js to send and receive data for client-server communication. This application is a simple to do list which allows users to type an input and add it into the list of things to do. Users are able to clear the list or cross out items individiually.",
+      "A front-end website utilizing HTML, CSS, and javascript. This project exemplifies the utilization of node.js and express.js to send and receive data for client-server communication. This application is a simple to do list which allows users to type an input and add it into the list of things to do. Users are able to clear the list or cross out items individiually.",
     image: todoImg,
     videoUrl: "https://youtu.be/-9r22H3V-5g",
     repo: "https://github.com/jeffreen0322/todoList",
+    tech: ["HTML", "CSS", "Javascript", "NodeJS", "ExpressJS"],
   },
 ];

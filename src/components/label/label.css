@@ -1,0 +1,11 @@
+.tag-container {
+  justify-content: center;
+  border: 1px solid #b5c6e0;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.tag-label {
+  /* color: rgb(45, 153, 110);   */
+  color: #b5c6e0;
+}

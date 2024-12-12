@@ -68,3 +68,12 @@
   flex-direction: row;
   gap: 1rem;
 }
+
+.tech-stack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  font-family: monospace;
+}
