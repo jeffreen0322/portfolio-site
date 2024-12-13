@@ -22,11 +22,7 @@ hr,
 li,
 button {
   color: #e0cfb5 !important;
-  font-family: monospace !important;
-}
-
-button {
-  font-family: monospace !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 h1,
@@ -35,7 +31,8 @@ h3,
 h4,
 h5 {
   color: #b5c6e0 !important;
-  font-family: monospace !important;
+
+  font-family: "Space Mono", monospace !important;
 }
 
 strong {
