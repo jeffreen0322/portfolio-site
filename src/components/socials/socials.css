@@ -1,3 +1,10 @@
+.btn-dark.email,
+.btn-dark.git,
+.btn-dark.linkedin {
+  background-color: transparent;
+  border: none;
+}
+
 .btn-dark.linkedin:hover {
   background-color: blue;
 }
