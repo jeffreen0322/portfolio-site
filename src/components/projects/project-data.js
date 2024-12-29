@@ -12,7 +12,6 @@ export const projects = [
       "Anime database website developed in React, akin to that of other known anime logging sites such as: MyAnimeList and Anilist. Anibrowser is a website that implements the open-sourced API Jikan, which queries from MyAnimeList.",
     image: anibrowserImg,
     url: "https://anibrowser.vercel.app",
-    repo: "https://github.com/jeffreen0322/Anibrowser",
     tech: [
       "React",
       "NodeJS",
