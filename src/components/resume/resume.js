@@ -87,12 +87,13 @@ export default function Resume() {
 
           <ul>
             <li>
-              <strong>Languages:</strong> Java, Python, JavaScript, HTML/CSS,
-              C/C++, MySQL, TypeScript
+              <strong>Languages:</strong>
+              {` Java, Python, JavaScript (JS),
+              HTML/CSS, C/C++, MySQL, PostgreSQL, Typescript`}
             </li>
             <li>
-              <strong>Frameworks:</strong> Angular, ReactJS, IONIC, Node.js
-              (limited), Express.js (limited), JQuery, AJAX, JSON, JUnit
+              <strong>Frameworks:</strong> React, Angular, IONIC, JSON, NodeJS,
+              ExpressJS, JQuery, AJAX, JSON, JUnit
             </li>
             <li>
               <strong>Developer Tools:</strong> VSCode, Git, ChatGPT, Jira,
@@ -108,7 +109,7 @@ export default function Resume() {
 
           <div>
             <p>
-              <strong>Personal Website</strong> | January 2024 – Present
+              <strong>Personal Website</strong> | June 2022 – Present
             </p>
             <ul>
               <li>
