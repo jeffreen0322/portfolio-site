@@ -20,7 +20,7 @@
 
 ## Deployment
 
-- Vercel (TBA)
+- Vercel
 
 ## How to run
 
