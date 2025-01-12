@@ -15,6 +15,8 @@ export const projects = [
     tech: [
       "React",
       "NodeJS",
+      "ExpressJS",
+      "postgreSQL",
       "Jikan REST API",
       "CSS",
       "Javascript",
